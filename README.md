@@ -14,3 +14,6 @@ app.js — Initializes the server, connects to the database, configures essentia
 .env — Stores environment variables such as the database URI and server port.
 
 A .env.example file is provided to guide contributors on how to structure their own .env file when running the project locally. For security reasons, the actual .env file is intentionally excluded from the repository.
+
+challenges: using require to import my created modules was not working for me.
+solution: I had to switch to Modern ES module, and it worked well.
